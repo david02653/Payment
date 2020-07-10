@@ -26,8 +26,8 @@ public class PaymentTest {
     @Test
     public void testIndex()
     {
-        //assertEquals( paymentController.index(), "success");
-        assertEquals(paymentController.index(), "fail");
+        assertEquals( paymentController.index(), "success");
+        //assertEquals(paymentController.index(), "fail");
     }
 
     @Test
